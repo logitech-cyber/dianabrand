@@ -871,9 +871,6 @@
   .h-\[368px\] {
     height: 368px;
   }
-  .h-\[4000px\] {
-    height: 4000px;
-  }
   .h-\[400px\] {
     height: 400px;
   }
@@ -897,9 +894,6 @@
   }
   .min-h-screen {
     min-height: 100vh;
-  }
-  .w-1 {
-    width: calc(var(--spacing) * 1);
   }
   .w-1\/2 {
     width: calc(1/2 * 100%);
@@ -1637,9 +1631,6 @@
   .bg-accent-tertiary {
     background-color: #90c6cd;
   }
-  .bg-pink-100 {
-    background-color: var(--color-pink-100);
-  }
   .bg-primary {
     background-color: #242a2b;
   }
@@ -1674,10 +1665,10 @@
     background-image: none;
   }
   .bg-services {
-    background-image: url(/src/assets/img/bg-servicios.svg);
+    background-image: url(assets/bg-servicios.svg);
   }
   .bg-testimonials {
-    background-image: url(/src/assets/img/bg-testimonial.svg);
+    background-image: url(assets/bg-testimonial.svg);
   }
   .via-none {
     --tw-gradient-via-stops: initial;
@@ -2594,10 +2585,16 @@
       width: calc(var(--spacing) * 10);
     }
   }
-  .before\:bg-\[url\(\'\/src\/assets\/img\/quote-inicial\.svg\'\)\] {
+  .before\:bg-\[url\(\'\/assets\/img\/quote-inicial\.svg\'\)\] {
     &::before {
       content: var(--tw-content);
-      background-image: url('/src/assets/img/quote-inicial.svg');
+      background-image: url('/assets/img/quote-inicial.svg');
+    }
+  }
+  .before\:bg-\[url\(\'assets\/quote-inicial\.svg\'\)\] {
+    &::before {
+      content: var(--tw-content);
+      background-image: url('assets/quote-inicial.svg');
     }
   }
   .before\:bg-contain {
@@ -2642,10 +2639,16 @@
       width: calc(var(--spacing) * 10);
     }
   }
-  .after\:bg-\[url\(\'\/src\/assets\/img\/quote-final\.svg\'\)\] {
+  .after\:bg-\[url\(\'\/assets\/img\/quote-final\.svg\'\)\] {
     &::after {
       content: var(--tw-content);
-      background-image: url('/src/assets/img/quote-final.svg');
+      background-image: url('/assets/img/quote-final.svg');
+    }
+  }
+  .after\:bg-\[url\(\'assets\/quote-final\.svg\'\)\] {
+    &::after {
+      content: var(--tw-content);
+      background-image: url('assets/quote-final.svg');
     }
   }
   .after\:bg-contain {
