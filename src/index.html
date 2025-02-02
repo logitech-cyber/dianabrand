@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psicóloga Diana Brand</title>
+    <!-- Favicon -->
+    <link rel="icon" href="/src/assets/img/favicon-32x32.png" type="image/x-icon">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="./output.css">
+     <!--iconos-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.min.css">
+     <!--Google Fonts-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+     <!-- Swiper css -->
+     <link rel="stylesheet" href="./swiper.min.css">
+</head>
+<body>
+    <!--HEADER-->
+
+    <header class="py-8 lg:pt-6 lg:pb-14">
+    <div class="container mx-auto lg:relative flex flex-col lg:flex-row lg:justify-between gap-y-4 lg:gap-y-0">
+        <!--Logo-->
+        <div class="flex justify-center lg:justify-normal">
+            <a href="#">
+                <img src="/assets/img/logo-2.svg" alt="logo-marca">
+            </a>
+        </div>
+
+        <div class="flex flex-col gap-y-4 lg:flex-row lg:gap-x-10 lg:gap-y-8">
+            <!--Ubicacion-->
+            <div class="flex justify-center items-center gap-x-2 lg:justify-normal">
+                <i class="ri-map-pin-2-fill text-2xl text-accent"></i>
+                <div class="text-secondary">Carrera 12 # 4-12 consultorio 101, Buga</div>  
+            </div>
+            <!--Telefono-->
+            <div class="flex justify-center items-center gap-x-2 lg:justify-normal">
+                <i class="ri-phone-fill text-2xl text-accent"></i>
+                <div class="text-secondary">(+57) 316 134 2620</div>
+            </div>
+            <!--btn-->
+            <button class="btn btn-sm btn-outline w-[240px] lg:w-auto mx-auto lg:mx-0">Informacion</button>
+            <!--nav movil-->
+            <nav class="mnav bg-white fixed w-[300px] top-0 h-screen -left-[300px] shadow-2xl lg:hidden transition-all duration-300 z-20">
+            <!--Nav Trigger btn-->
+              <div class="mnav__close-btn bg-primary w-8 h-8 relative -right-full top-8 flex justify-center items-center rounded-tr-lg rounded-br-lg cursor-pointer transition-all">
+                <i class="mnav__close-btn-icon ri-arrow-right-s-line text-2xl text-white"></i>
+              </div> 
+              
+            <!--logo, list, form-->
+              <div class="px-12 flex flex-col gap-y-12 h-full">
+                <a href="#">
+                    <img src="/assets/img/LOGO.svg" alt="logo-marca">
+                </a>
+                <!--list-->
+                <ul class="flex flex-col gap-y-5">
+                    <li><a href="#Inicio" class="text-secondary hover:text-accent transition-all duration-300">Inicio</a></li>
+                    <li><a href="#Servicios" class="text-secondary hover:text-accent transition-all duration-300">Servicios</a></li>
+                    <li><a href="#Contacto" class="text-secondary hover:text-accent transition-all duration-300">Contacto</a></li>
+                    <li><a href="#Blog" class="text-secondary hover:text-accent transition-all duration-300">Blog</a></li>
+                    <li><a href="#P+F" class="text-secondary hover:text-accent transition-all duration-300">Preguntas frecuentes</a></li>
+
+                </ul>
+              </div>
+            </nav>
+            <!--Nav desktop-->
+            <nav class="bg-white absolute w-full left-0 -bottom-[86px] shadow-custom1 h-16 rounded-[10px] hidden lg:flex lg:items-center lg:justify-center lg:px-[50px]">
+                <ul class="flex gap-x-4">
+                    <li><a href="#Inicio" class="text-secondary hover:text-accent transition-all duration-300">Inicio</a></li>
+                    <li><a href="#Servicios" class="text-secondary hover:text-accent transition-all duration-300">Servicios</a></li>
+                    <li><a href="#Contacto" class="text-secondary hover:text-accent transition-all duration-300">Contacto</a></li>
+                    <li><a href="#Blog" class="text-secondary hover:text-accent transition-all duration-300">Blog</a></li>
+                    <li><a href="#P+F" class="text-secondary hover:text-accent transition-all duration-300">Preguntas frecuentes</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </div>
+        </header>
+
+   <!--hero-->
+    <section class="hero bg-[#d97ce3] py-12 xl:pt-12 xl:pb-0 overflow-hidden" id="Inicio">
+    <div class="container mx-auto h-full">
+        <!--Text & img-->
+        <div class="flex flex-col xl:flex-row items-center justify-between h-full">
+            <!--text-->
+            <div class="hero__text xl:w-[48%] text-center xl:text-left">
+                <!--badge-->
+               <div class="flex items-center bg-white py-[10px] px-[20px] w-max gap-x-2 mb-[26px] rounded-full mx-auto xl:mx-0">
+                <!--badge icon-->
+                <i class="ri-brain-line text-2xl text-accent"></i>
+                <div class="uppercase text-base font-medium text-[#9ab4b7] tracking-[2.24px]">Cuida tu salud mental.</div>
+               </div> 
+               <!--title-->
+               <h1 class="h1 mb-6">Diana Brand Psicóloga.</h1>
+               <!--desc-->
+               <p class="mb-[42px] md:max-w-xl text-justify text-white">
+                Psicóloga graduada de la Corporación Universitaria Minuto de Dios, con certificación en atención a poblaciones con discapacidad (SENA), 
+                Practitioner en PNL y Master en PNL e Inteligencia Emocional por el Centro de Postgrados de Madrid, España. 
+                También cuenta con formación en Mindfulness. Especialista en herramientas avanzadas para el bienestar emocional y el desarrollo personal.
+               </p>
+               <!--btn-->
+               <button class="btn btn-lg btn-accent mx-auto xl:mx-0">Contacto</button>
+            </div>
+            <!--img-->
+            <div class="hero__img hidden xl:flex max-w-[814px] self-end">
+                <img src="/assets/img/PRINCIPAL_IZQ.png" alt="">
+            </div>
+        </div>
+    </div>
+        </section>
+    <!--end hero-->
+
+    <!--Estadisticas-->
+        <section class="stats section">
+        <div class="container mx-auto">
+            <!--Wrapper-->
+            <div class="flex flex-col xl:flex-row gap-y-6 justify-between">
+                <!--item-->
+                <div class="stats__item flex-1 xl:border-r flex flex-col items-center">
+                    <div class="text-4xl xl:text-[64px] font-semibold text-accent-tertiary xl:mb-2">+300</div>
+                    <div>Pacientes atendidos</div>
+                </div>
+                <div class="stats__item flex-1 xl:border-r flex flex-col items-center">
+                    <div class="text-4xl xl:text-[64px] font-semibold text-accent-tertiary xl:mb-2">+3</div>
+                    <div>Especialidades</div>
+                </div>
+                <div class="stats__item flex-1 xl:border-r flex flex-col items-center">
+                    <div class="text-4xl xl:text-[64px] font-semibold text-accent-tertiary xl:mb-2">+200</div>
+                    <div>Recursos</div>
+                </div>
+                <div class="stats__item flex-1 xl:border-r flex flex-col items-center">
+                    <div class="text-4xl xl:text-[64px] font-semibold text-accent-tertiary xl:mb-2">+7</div>
+                    <div>Años de experiencia</div>
+                </div>
+            </div>
+        </div>
+        </section>
+    <!--end estadisticas-->
+
+    <!--Servicios-->
+        <section class="services" id="Servicios">
+
+      <!--bg-->  
+      <div class="bg-services bg-cover bg-no-repeat max-w-[1466px] mx-4 xl:mx-auto rounded-[20px] xl:pt-[70px] px-6 xl:px-0 relative h-[368px] flex items-center xl:items-start -z-10">
+        <div class="container mx-auto">
+            <!--text-->
+            <div class="services__top flex items-center flex-col xl:flex-row xl:mb-[60px]">
+                <h2 class="h2 text-red flex-1 mb-4 xl:mb-0 text-center xl:text-left">Áreas en las que puedo asistirte</h2>
+                <p class="text-black flex-1 text-center xl:text-left max-w-2xl xl:max-w-none text-justify text-white">Te acompaño a descubrir herramientas efectivas para gestionar tus emociones, superar desafíos y fortalecer tu confianza.
+                   Juntos trabajaremos en potenciar tu crecimiento personal para alcanzar una vida más equilibrada y plena.</p>
+            </div>
+        </div>
+      </div>
+      <!--grid container-->
+      <div class="container mx-auto mt-8 xl:-mt-[144px]">
+       <!--grid-->
+       <div class=" grid xl:grid-cols-4 gap-5 px-8 xl:px-0">
+        <!--grid item-->
+        <div class="services__item bg-white p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col items-center text-center">
+            <!--grid item icon-->
+            <div class="mb-[15px]">
+                <img src="/assets/icon/consulta.png" alt="icono_consulta">
+            </div>
+            <!--grid item title-->
+            <h3 class="h3 mb-[10px]">Consultas.</h3>
+            <!--grid item desc-->
+            <p class=" text-justify leading-normal max-w-[300px]">presenciales y online diseñadas para brindar comodidad y flexibilidad según las necesidades del cliente.</p>
+        </div>
+        <!--grid item-->
+        <div class="services__item bg-white p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col items-center text-center">
+            <!--grid item icon-->
+            <div class="mb-[15px]">
+                <img src="/assets/icon/atencion.png" alt="icono_consulta">
+            </div>
+            <!--grid item title-->
+            <h3 class="h3 mb-[10px]">Mindfulness (Atención plena).</h3>
+            <!--grid item desc-->
+            <p class=" text-justify leading-normal max-w-[300px]">Una práctica que promueve la atención plena para reducir el estrés, mejorar el bienestar emocional y vivir el presente con mayor conciencia.</p>
+        </div>
+        <!--grid item-->
+        <div class="services__item bg-white p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col items-center text-center">
+            <!--grid item icon-->
+            <div class="mb-[15px]">
+                <img src="/assets/icon/business.png" alt="icono_consulta">
+            </div>
+            <!--grid item title-->
+            <h3 class="h3 mb-[10px]">Talleres empresariales.</h3>
+            <!--grid item desc-->
+            <p class=" text-justify leading-normal max-w-[300px]">enfocados en el bienestar emocional, liderazgo y manejo efectivo del estrés, adaptados a las necesidades específicas de cada organización..</p>
+        </div>
+        <!--grid item-->
+        <div class="services__item bg-white p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col items-center text-center">
+            <!--grid item icon-->
+            <div class="mb-[15px]">
+                <img src="/assets/icon/libros.png" alt="icono_consulta">
+            </div>
+            <!--grid item title-->
+            <h3 class="h3 mb-[10px]">Talleres educativos.</h3>
+            <!--grid item desc-->
+            <p class=" text-justify leading-normal max-w-[300px]">enfocados en el desarrollo emocional, habilidades sociales y el crecimiento personal, adaptados a diferentes grupos y necesidades.</p>
+        </div>
+       </div>
+      </div>
+        </section>     
+     <!--end Servicios-->
+
+     <!--Cita (Appointment)-->
+        <section class="appointment section" id="Contacto">
+        <div class="container mx-auto">
+            <!--Title-->
+            <h2 class="appointment__title h2 mb-5 xl:mb-[50px] text-center xl:text-left">
+                Reservar Cita o llamada: <span class="text-accent-tertiary">(+57) 316 134 2620</span>
+            </h2>
+            <!--Form-->
+            <form action="" class="appointment__form flex flex-col gap-y-5">
+            <!--select wrapper-->
+            <div class="flex flex-col xl:flex-row gap-5">
+            <!--selec 1-->
+            <div class="select relative flex  items-center">
+                <!--icon-->
+                <div class="absolute right-4">
+                    <i class="ri-arrow-down-s-line text-[26px] text-primary"></i>
+                </div>
+                <!--select-->
+                <select name="" id="" class="appearance-none outline-none h-full w-full bg-transparent px-4">
+                    <option value="1">Seleccion servicio</option>
+                    <option value="2">Consulta presencial</option>
+                    <option value="3">Consulta online</option>
+                    <option value="4">Mindfulness</option>
+                    <option value="5">Talleres empresariales</option>
+                    <option value="6">Talleres educativos</option>
+                </select>
+            </div>
+            <!--selec 2-->
+            <div class="select relative flex  items-center">
+                <!--icon-->
+                <div class="absolute right-4">
+                    <i class="ri-arrow-down-s-line text-[26px] text-primary"></i>
+                </div>
+                <!--select-->
+                <select name="" id="" class="appearance-none outline-none h-full w-full bg-transparent px-4">
+                    <option value="1">Seleccione psicológa.</option>
+                    <option value="2">Psic. Diana Brand</option>
+                </select>
+            </div>
+            </div>
+              <!--input wrapper-->
+              <div class="flex flex-col xl:flex-row gap-5">
+                <input type="text" class="input" placeholder="Nombre :">
+                <input type="text" class="input" placeholder="Teléfono :">
+            </div>
+             <!--input wrapper-->
+              <div class="flex flex-col xl:flex-row gap-5">
+                <input  class="input" type="date" >
+                <input  class="input" type="time">
+            </div>
+            <!--btn-->
+            <button class="btn btn-lg btn-accent self-start" type="submit">Reservar cita</button>
+            </form>
+        </div>
+        </section>
+     <!--end (Appointment)-->
+
+    
+     <!--Testimonial-->
+        <section class="testimonial bg-testimonials bg-cover bg-right bg-no-repeat py-12 xl:min-h-[595px] xl:py-0">
+        <div class="testimonial__container container mx-auto">
+            <div class="flex flex-col items-center gap-x-14 xl:flex-row">
+               <!--img-->
+            <div class="hidden xl:flex">
+                <img src="/assets/img/testimonial.png" alt="testimonial-img">
+            </div>
+            <!--slider-->
+            <div class="max-w-[98%] xl:max-w-[710px]">
+               <!-- Slider main container -->
+                <div class="swiper h-[400px]">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="h-full flex flex-col justify-center items-start">
+                            <div class="max-w-[680px] mx-auto text-center xl:text-left">
+                                <!--message-->
+                                <p class="font-light relative text-[22px] text-white leading-[190%] text-center xl:text-left  before:bg-[url('/assets/img/quote-inicial.svg')] before:bg-contain before:bg-bottom before:inline-block before:top-0 before:w-10 before:h-10 before:bg-no-repeat
+                                after:bg-[url('/assets/img/quote-final.svg')] after:bg-contain after:bg-bottom after:inline-block after:top-0 after:w-10 after:h-10 after:bg-no-repeat mb-7"> 
+                                    <span class="mx-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Sequi expedita, nam quidem modi voluptas quis tempore autem laborum officia, 
+                                        illum impedit porro nostrum quia maxime?
+                                    </span>
+                                </p>
+                                <!--name-->
+                                <div class="text-[26px] text-white font-semibold">Luz Adriana.</div>
+                                <!--job-->
+                                <div class="text-white font-medium uppercase tracking-[2.24px]">Licenciada infantil.</div>
+                            </div>
+                        </div>
+                    </div>
+                      <!-- Slide 2 -->
+                      <div class="swiper-slide">
+                        <div class="h-full flex flex-col justify-center items-start">
+                            <div class="max-w-[680px] mx-auto text-center xl:text-left">
+                                <!--message-->
+                                <p class="font-light relative text-[22px] text-white leading-[190%] text-center xl:text-left  before:bg-[url('/assets/img/quote-inicial.svg')] before:bg-contain before:bg-bottom before:inline-block before:top-0 before:w-10 before:h-10 before:bg-no-repeat
+                                after:bg-[url('/assets/img/quote-final.svg')] after:bg-contain after:bg-bottom after:inline-block after:top-0 after:w-10 after:h-10 after:bg-no-repeat mb-7"> 
+                                    <span class="mx-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Sequi expedita, nam quidem modi voluptas quis tempore autem laborum officia, 
+                                        illum impedit porro nostrum quia maxime?
+                                    </span>
+                                </p>
+                                <!--name-->
+                                <div class="text-[26px] text-white font-semibold">Luz Adriana.</div>
+                                <!--job-->
+                                <div class="text-white font-medium uppercase tracking-[2.24px]">Licenciada infantil.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+                    <!-- swiper pagination -->
+                    <div class="swiper-pagination"></div>
+
+                </div> 
+            </div>
+
+            </div>
+            </div>
+         
+        </section>
+    <!--end Testimonial-->
+
+    <!--P+F-->
+       <section class="faq mt-[100px]" id="P+F">
+        <div class="container mx-auto">
+            <h2 class="faq__title h2 text-center mb-[50px] mt-[50px] xl:text-left">Resolvemos tus dudas</h2>
+            <!--item wrapper-->
+            <div class="max-w-5xl mx-auto">
+                <!--item-->
+                <div class="faq__item px-[30px] pt-7 pb-4 border-b cursor-pointer select-none">
+                    <!--title & icon-->
+                    <div class="flex items-center justify-between mb-[10px]">
+                        <!--title-->
+                        <h4 class="h4">pregunta algo?</h4>
+                        <!--icon-->
+                        <div class="faq__btn text-accent">
+                            <i class="ri-add-line text-2xl"></i>
+                        </div>
+                    </div>
+                    <!--answer text-->
+                    <div class="faq__answer h-0 overflow-hidden">
+                        <p class="font-light">
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                           Debitis, aliquid expedita. Saepe ad sint sed veritatis fuga eveniet autem perspiciatis. 
+                           Assumenda ducimus vel aspernatur cum rem quidem illo voluptates alias. 
+                        </p>
+                    </div>
+                </div>
+                  <!--item-->
+                  <div class="faq__item px-[30px] pt-7 pb-4 border-b cursor-pointer select-none">
+                    <!--title & icon-->
+                    <div class="flex items-center justify-between mb-[10px]">
+                        <!--title-->
+                        <h4 class="h4">pregunta algo?</h4>
+                        <!--icon-->
+                        <div class="faq__btn text-accent">
+                            <i class="ri-add-line text-2xl"></i>
+                        </div>
+                    </div>
+                    <!--answer text-->
+                    <div class="faq__answer h-0 overflow-hidden">
+                        <p class="font-light">
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                           Debitis, aliquid expedita. Saepe ad sint sed veritatis fuga eveniet autem perspiciatis. 
+                           Assumenda ducimus vel aspernatur cum rem quidem illo voluptates alias. 
+                        </p>
+                    </div>
+                </div>
+                  <!--item-->
+                  <div class="faq__item px-[30px] pt-7 pb-4 border-b cursor-pointer select-none">
+                    <!--title & icon-->
+                    <div class="flex items-center justify-between mb-[10px]">
+                        <!--title-->
+                        <h4 class="h4">pregunta algo?</h4>
+                        <!--icon-->
+                        <div class="faq__btn text-accent">
+                            <i class="ri-add-line text-2xl"></i>
+                        </div>
+                    </div>
+                    <!--answer text-->
+                    <div class="faq__answer h-0 overflow-hidden">
+                        <p class="font-light">
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                           Debitis, aliquid expedita. Saepe ad sint sed veritatis fuga eveniet autem perspiciatis. 
+                           Assumenda ducimus vel aspernatur cum rem quidem illo voluptates alias. 
+                        </p>
+                    </div>
+                </div>
+                  <!--item-->
+                  <div class="faq__item px-[30px] pt-7 pb-4 border-b cursor-pointer select-none">
+                    <!--title & icon-->
+                    <div class="flex items-center justify-between mb-[10px]">
+                        <!--title-->
+                        <h4 class="h4">pregunta algo?</h4>
+                        <!--icon-->
+                        <div class="faq__btn text-accent">
+                            <i class="ri-add-line text-2xl"></i>
+                        </div>
+                    </div>
+                    <!--answer text-->
+                    <div class="faq__answer h-0 overflow-hidden">
+                        <p class="font-light">
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                           Debitis, aliquid expedita. Saepe ad sint sed veritatis fuga eveniet autem perspiciatis. 
+                           Assumenda ducimus vel aspernatur cum rem quidem illo voluptates alias. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </section>
+    <!--end P+F-->
+
+    <!--Blog-->
+    <section class="blog mt-[100px] bg-[#d97ce3]" id="Blog">
+    <div class="container mx-auto bg-white">
+        <h2 class="blog__title h2 mb-[50px] text-center xl:text-left">Nuestros últimos posts</h2>
+        <!--Blog posts-->
+        <div class="flex flex-col xl:flex-row gap-y-6 xl:gap-y-0 items-center xl:justify-between mb-[50px]">
+            <!--post 1-->
+            <div class="blog__post max-w-[420px] shadow-custom2 rounded-[10px] overflow-hidden cursor-pointer group">
+                <!--img-->
+                <div class="relative overflow-hidden">
+                    <img class="group-hover:scale-118 transition-all duration-500" src="/assets/img/mindfulness.jpg" alt="monje-caminando">
+                    <!--badge-->
+                    <div class="bg-accent-tertiary absolute bottom-0 left-0 text-black text-base tracking-[2.24px] font-medium uppercase py-[6px] px-[18px]">Mindfulness</div>
+                </div>
+                <!--text-->
+                <div class="px-5 py-6">
+                    <!--date-->
+                    <div class="mb-4">Enero 30, 2025</div>
+                    <!--title-->
+                    <h4 class="h4 mb-[10px]">Mindfulness, alternativa para la alimentación consciente</h4>
+                    <!--desc-->
+                    <p class="font-light">El mindfulness, también conocido como “atención plena”, se establece entonces como herramienta terapéutica útil...
+                        <a href="https://www.uv.mx/prensa/general/mindfulness-alternativa-para-la-alimentacion-consciente/"  target= "_blank " class="italic underline text-[#4c5354]">Leer más</a>
+                    </p>
+
+                </div>
+            </div>
+            <!--post 2-->
+            <div class="blog__post max-w-[420px] shadow-custom2 rounded-[10px] overflow-hidden cursor-pointer group">
+                <!--img-->
+                <div class="relative overflow-hidden">
+                    <img class="group-hover:scale-118 transition-all duration-500" src="/assets/img/educativo.jpg" alt="monje-caminando">
+                    <!--badge-->
+                    <div class="bg-accent-tertiary absolute bottom-0 left-0 text-black text-base tracking-[2.24px] font-medium uppercase py-[6px] px-[18px]">Mindfulness</div>
+                </div>
+                <!--text-->
+                <div class="px-5 py-6">
+                    <!--date-->
+                    <div class="mb-4">Enero 30, 2025</div>
+                    <!--title-->
+                    <h4 class="h4 mb-[10px]">Mindfulness, alternativa para la alimentación consciente</h4>
+                    <!--desc-->
+                    <p class="font-light">El mindfulness, también conocido como “atención plena”, se establece entonces como herramienta terapéutica útil...
+                        <a href="https://www.uv.mx/prensa/general/mindfulness-alternativa-para-la-alimentacion-consciente/"  target= "_blank " class="italic underline text-[#4c5354]">Leer más</a>
+                    </p>
+
+                </div>
+            </div>
+            <!--post 3-->
+            <div class="blog__post max-w-[420px] shadow-custom2 rounded-[10px] overflow-hidden cursor-pointer group">
+                <!--img-->
+                <div class="relative overflow-hidden">
+                    <img class="group-hover:scale-118 transition-all duration-500" src="/assets/img/empresa.jpg" alt="monje-caminando">
+                    <!--badge-->
+                    <div class="bg-accent-tertiary absolute bottom-0 left-0 text-black text-base tracking-[2.24px] font-medium uppercase py-[6px] px-[18px]">Mindfulness</div>
+                </div>
+                <!--text-->
+                <div class="px-5 py-6">
+                    <!--date-->
+                    <div class="mb-4">Enero 30, 2025</div>
+                    <!--title-->
+                    <h4 class="h4 mb-[10px]">Mindfulness, alternativa para la alimentación consciente</h4>
+                    <!--desc-->
+                    <p class="font-light">El mindfulness, también conocido como “atención plena”, se establece entonces como herramienta terapéutica útil...
+                        <a href="https://www.uv.mx/prensa/general/mindfulness-alternativa-para-la-alimentacion-consciente/"  target= "_blank " class="italic underline text-[#4c5354]">Leer más</a>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!--end Blog-->
+   
+    <!--footer-->
+    <footer class="footer pt-12 xl:pt-[150px]">
+        <div class="container mx-auto pb-12 xl:pb-[100px]">
+            <div class="flex flex-col xl:flex-row gap-x-5 gap-y-10">
+                <!--footer contact section-->
+                <div class="footer__item flex-1">
+                    <!--logo-->
+                    <a href="">
+                        <img class="mb-[30px]" src="/assets/img/LOGO.svg" alt="logotipo">
+                    </a>
+                    <!--des-->
+                    <p class="mb-[20px]">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <!--ubicacion, email y telefono-->
+                    <div class="flex flex-col gap-y-3 mb-10">
+                        <div class="flex items-center gap-x-[6px]">
+                            <i class="ri-map-pin-fill text-[24px] text-accent"></i>
+                            <div>Carrera 12 # 4-12 consultorio 101, Buga.</div>
+                        </div>
+                        <div class="flex items-center gap-x-[6px]">
+                            <i class="ri-mail-fill text-[24px] text-accent"></i>
+                            <div>dianabrandsa@hotmail.com</div>
+                        </div>
+                        <div class="flex items-center gap-x-[6px]">
+                            <i class="ri-phone-fill text-[24px] text-accent""></i>
+                            <div>(+57) 316 134 2620</div>
+                        </div>
+                    </div>
+                    <!--social media-->
+                    <div class="flex gap-[14px] text-[30px]">
+                        <div class="p-[10px] rounded-[10px] shadow-custom2 text-accent-tertiary hover:text-accent cursor-pointer transition-all">
+                            <i class="ri-facebook-circle-fill"></i>
+                        </div>
+                        <div class="p-[10px] rounded-[10px] shadow-custom2 text-accent-tertiary hover:text-accent cursor-pointer transition-all">
+                            <i class="ri-instagram-line"></i>
+                        </div>
+                        <div class="p-[10px] rounded-[10px] shadow-custom2 text-accent-tertiary hover:text-accent cursor-pointer transition-all">
+                            <i class="ri-tiktok-line"></i>
+                        </div>
+                        <div class="p-[10px] rounded-[10px] shadow-custom2 text-accent-tertiary hover:text-accent cursor-pointer transition-all">
+                            <i class="ri-linkedin-box-line"></i>
+                        </div>
+                    </div>
+                </div>
+                <!--footer  quick links section-->
+                <div class="footer__item flex-1">
+                    <h4 class="h4 mb-5">Enlaces Rápidos</h4>
+                    <div class="flex gap-x-5">
+                        <!--list 1-->
+                        <ul class="flex-1 flex flex-col gap-y-5">
+                            <li><a href="#Inicio" class="hover:text-accent transition-all">Inicio</a></li>
+                            <li><a href="#Servicios" class="hover:text-accent transition-all">Servicios</a></li>
+                            <li><a href="#Inicio" class="hover:text-accent transition-all">Blog</a></li>
+                        </ul>
+                          <!--list 2-->
+                          <ul class="flex-1 flex flex-col gap-y-5">
+                            <li><a href="#Inicio" class="hover:text-accent transition-all">P+F</a></li>
+                            <li><a href="#Contacto" class="hover:text-accent transition-all">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--footer Opening Hours section-->
+                <div class="footer__item flex-1">
+                  <h4 class="h4 mb-5">Horarios</h4>  
+                  <!--list-->
+                  <div class="flex flex-col gap-x-5 gap-5">
+                    <!--item 1-->
+                    <div class="flex-1">
+                        <div class="flex justify-between items-center border-b pb-[10px]">
+                            <div>Lunes - Jueves</div>
+                            <div class="text-accent">8:00 AM - 6:00 PM </div>
+                        </div>
+                    </div>
+                    <!--item 2-->
+                    <div class="flex-1">
+                        <div class="flex justify-between items-center border-b pb-[10px]">
+                            <div>Viernes - Sabado</div>
+                            <div class="text-accent">10:00 AM - 4:00 PM </div>
+                        </div>
+                    </div>
+                    <!--item 3-->
+                    <div class="flex-1">
+                        <div class="flex justify-between items-center border-b pb-[10px]">
+                            <div>Domingo</div>
+                            <div class="text-accent">Solo emergencia</div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    <!--copyright-->
+    <div class="py-[30px] border-t">
+        <div class="container mx-auto text-center">
+            <div class="font-light text-base">&copy; 2025 Diana Brand Psicóloga - Todos los derechos reservados.</div>
+        </div>
+    </div>
+    </footer>
+    <!--end footer-->
+   
+
+    <!--SCRIPT-->
+    <!-- Swiper JS -->
+    <script src="/js/swiper-bundle.min.js"></script>
+    <!--Scroll Reveal-->
+    <script src="/js/scrollreveal.min.js"></script>
+    <!--main-->   
+    <script src="/js/main.js"></script>
+</body>
+</html>
