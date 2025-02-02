@@ -4,7 +4,7 @@ module.exports = {
     theme: {
         container: {
           padding: {
-            DEFAULT: '15px', // Coma agregada para evitar errores
+            DEFAULT: '15px',
           },
         },
         screens: {
@@ -25,17 +25,17 @@ module.exports = {
             grey: '#e8f0f1',
           },
           fontFamily: {
-            primary: ['Poppins', 'sans-serif'], // Uso correcto de las fuentes como un array
+            primary: ['Poppins', 'sans-serif'],
           },
           boxShadow: {
             custom1: '0px 2px 40px 0px rgba(8, 70, 78, 0.08)',
             custom2: '0px 0px 30px 0px rgba(8, 73, 81, 0.06)',
           },
           backgroundImage: {
-            services: 'url(../../assets/img/bg-servicios.svg)', // Añade rutas válidas
-            testimonials: 'url(../../assets/img/bg-testimonial.svg)',
-            quoteLeft: 'url(../../assets/img/cita.svg)',
-            quoteRight: 'url(../../assets/img/cita.png)',
+            services: 'url(/src/assets/img/bg-servicios.svg)',
+            testimonials: 'url(/src/assets/img/bg-testimonial.svg)',
+            quoteLeft: 'url(/src/assets/img/cita.svg)',
+            quoteRight: 'url(/src/assets/img/cita.png)',
           },
         },
       },
