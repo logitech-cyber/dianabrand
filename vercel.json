@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cp -r public/* .",
+  "outputDirectory": ".",
+  "framework": null
+}
