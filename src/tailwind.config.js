@@ -32,10 +32,10 @@ module.exports = {
             custom2: '0px 0px 30px 0px rgba(8, 73, 81, 0.06)',
           },
           backgroundImage: {
-            services: "url(/src/assets/img/bg-servicios.svg)", // Añade rutas válidas
-            testimonials: "url(/src/assets/img/bg-testimonial.svg)",
-            quoteLeft: "url(/src/assets/img/quote-inicial.svg)",
-            quoteRight: "url(../../assets/img/cita.png)",
+            services: "url(/assets/img/bg-servicios.svg)", // Añade rutas válidas
+            testimonials: "url(/assets/img/bg-testimonial.svg)",
+            quoteLeft: "url(/assets/img/quote-inicial.svg)",
+            quoteRight: "url(/assets/img/cita.png)",
           },
         },
       },
