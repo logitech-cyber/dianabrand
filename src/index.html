@@ -215,7 +215,7 @@
                 Reservar Cita o llamada: <span class="text-accent-tertiary">(+57) 316 134 2620</span>
             </h2>
             <!--Form-->
-            <form action="" class="appointment__form flex flex-col gap-y-5">
+            <form action="https://formsubmit.co/diego.guevara.brand@gmail.com" method="POST" class="appointment__form flex flex-col gap-y-5">
             <!--select wrapper-->
             <div class="flex flex-col xl:flex-row gap-5">
             <!--selec 1-->
@@ -225,13 +225,13 @@
                     <i class="ri-arrow-down-s-line text-[26px] text-primary"></i>
                 </div>
                 <!--select-->
-                <select name="" id="" class="appearance-none outline-none h-full w-full bg-transparent px-4">
+                <select name="servicio" id="" class="appearance-none outline-none h-full w-full bg-transparent px-4">
                     <option value="1">Seleccion servicio</option>
-                    <option value="2">Consulta presencial</option>
-                    <option value="3">Consulta online</option>
-                    <option value="4">Mindfulness</option>
-                    <option value="5">Talleres empresariales</option>
-                    <option value="6">Talleres educativos</option>
+                    <option value="Consulta presencial">Consulta presencial</option>
+                    <option value="Consulta online">Consulta online</option>
+                    <option value="Mindfulness">Mindfulness</option>
+                    <option value="Talleres empresariales">Talleres empresariales</option>
+                    <option value="Talleres educativos">Talleres educativos</option>
                 </select>
             </div>
             <!--selec 2-->
@@ -241,21 +241,21 @@
                     <i class="ri-arrow-down-s-line text-[26px] text-primary"></i>
                 </div>
                 <!--select-->
-                <select name="" id="" class="appearance-none outline-none h-full w-full bg-transparent px-4">
+                <select name="psicologa" id="" class="appearance-none outline-none h-full w-full bg-transparent px-4">
                     <option value="1">Seleccione psicológa.</option>
-                    <option value="2">Psic. Diana Brand</option>
+                    <option value="Psic. Diana Brand">Psic. Diana Brand</option>
                 </select>
             </div>
             </div>
               <!--input wrapper-->
               <div class="flex flex-col xl:flex-row gap-5">
-                <input type="text" class="input" placeholder="Nombre :">
-                <input type="text" class="input" placeholder="Teléfono :">
+                <input type="text" name="nombre" class="input" placeholder="Nombre :" required>
+                <input type="text" name="telefono" class="input" placeholder="Teléfono :" required>
             </div>
              <!--input wrapper-->
               <div class="flex flex-col xl:flex-row gap-5">
-                <input  class="input" type="date" >
-                <input  class="input" type="time">
+                <input type="date"  name="fecha" class="input" required>
+                <input type="time"  name="hora" class="input" required>
             </div>
             <!--btn-->
             <button class="btn btn-lg btn-accent self-start" type="submit">Reservar cita</button>
