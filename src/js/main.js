@@ -41,3 +41,81 @@ faqItems.forEach((item) => {
     iconElement.classList = `${iconClass} text-2xl`;
   });
 });
+
+
+// scroll reveal animation 
+
+const sr = ScrollReveal({
+  origin: 'bottom',
+  distance: '60px',
+  duration: 3000,
+  delay: 225,
+  //reset: true
+});
+
+// hero
+
+sr.reveal('.hero__text',{origin: 'top'});
+sr.reveal('.hero__img');
+
+// stats
+
+sr.reveal('.stats__item',{
+  delay: 300,
+  distance: '100px',
+  interval: 100,
+  origin: 'top',
+});
+
+
+//services
+
+sr.reveal('.services');
+sr.reveal('.services__top');
+sr.reveal('.services__item',{
+  delay: 600,
+  distance: '100px',
+  interval: 100,
+  origin: 'bottom',
+});
+
+
+//cita
+
+sr.reveal('.appointment__title');
+sr.reveal('.appointment__form');
+
+// testimonial
+
+sr.reveal('.testimonial');
+sr.reveal('.testimonial__constainer');
+
+//P+F
+
+sr.reveal('.faq__title');
+sr.reveal('.faq__item', {
+  delay: 600,
+  distance: '100px',
+  interval: 100,
+  origin: 'bottom',
+});
+
+
+//blog 
+
+sr.reveal('.blog__title');
+sr.reveal('.blog__post',{
+  delay: 600,
+  distance: '100px',
+  interval: 100,
+  oringin: 'bottom',
+});
+
+//footer
+
+sr.reveal('.footer__item',{
+  delay: 600,
+  distance: '100px',
+  interval: 100,
+  origin: 'bottom',
+});
